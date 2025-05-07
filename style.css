@@ -1,0 +1,157 @@
+/*
+Theme Name: Leapforce
+Description: Leapforce case theme
+Version: 1.0
+Author: Giovanni
+*/
+
+/* Tailwind CSS import */
+@import "tailwindcss";
+
+/* Fonts */
+/* GT Alpina */
+@font-face {
+  font-family: 'GT_Alpina';
+  src: url("inc/fonts/GTAlpina/GTAlpina-Light.otf");
+  font-weight: 300;
+}
+
+/* TT Commons Pro */
+@font-face {
+  font-family: 'TT_Commons_Pro';
+  src: url("../inc/fonts/TTCommonsPro/TTCommonsProNormal.otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT_Commons_Pro';
+  src: url("inc/fonts/TTCommonsPro/TTCommonsProMedium.otf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT_Commons_Pro';
+  src: url("inc/fonts/TTCommonsPro/TTCommonsProDemiBold.otf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* General */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Colours */
+:root {
+  --MainColorGroengrijs: #39494D;
+  --heading: #212121;
+  --body: #1E2526;
+  --button: #BF564D;
+  --white: #FFFFFF;
+  --softWhite: #FAFAFA;
+}
+
+/* Typography */
+.headingText {
+  font-family: TT_Commons_Pro;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 48px;
+  letter-spacing: -3%;
+  color: var(--heading);
+}
+
+.optionalHighlight {
+  font-family: GT_Alpina;
+  font-weight: 300;
+}
+
+.label {
+  font-family: TT_Commons_Pro;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  color: var(--MainColorGroengrijs);
+}
+
+.bodyText {
+  font-family: TT_Commons_Pro;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  color: var(--body);
+  opacity: 80%;
+}
+
+.CTAButton {
+  font-family: TT_Commons_Pro;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  color: var(--button);
+}
+
+.CTAContainer {
+  height: 515px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.CTATitle {
+  font-family: TT_Commons_Pro;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: -2%;
+  color: var(--white);
+}
+
+.CTABody {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24px;
+  color: var(--softWhite);
+  opacity: 50%;
+}
+
+/* VIEWPORT MEDIA QUERIES */
+/* XXS */
+@media only screen and (max-width: 360px) and (min-width: 0px) {
+}
+
+/* XS */
+@media only screen and (max-width: 576px) and (min-width: 360px) {
+}
+
+@media only screen and (max-width: 576px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+}
