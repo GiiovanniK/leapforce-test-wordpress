@@ -98,6 +98,10 @@ html {
   color: var(--button);
 }
 
+.CTAButton:hover {
+  color: #A6433A;
+}
+
 .CTAContainer {
   height: 515px;
   background-repeat: no-repeat;
