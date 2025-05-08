@@ -129,37 +129,3 @@ html {
   color: var(--softWhite);
   opacity: 50%;
 }
-
-/* VIEWPORT MEDIA QUERIES */
-/* XXS */
-@media only screen and (max-width: 360px) and (min-width: 0px) {
-}
-
-/* XS */
-@media only screen and (max-width: 576px) and (min-width: 360px) {
-}
-
-@media only screen and (max-width: 576px) {
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media only screen and (max-width: 768px) and (min-width: 576px) {
-}
-
-@media only screen and (max-width: 768px) {
-}
-
-/* Large devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-@media only screen and (max-width: 992px) {
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
-
-/* XX-Large devices (larger desktops, 1400px and up) */
-@media only screen and (min-width: 1400px) {
-}
