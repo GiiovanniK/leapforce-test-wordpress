@@ -27,7 +27,7 @@ get_header();
                                 <h2 class="CTATitle mb-2"><?php echo esc_html(get_field('cta_title_1')); ?></h2>
                                 <p class="CTABody"><?php echo esc_html(get_field('cta_body_1')); ?></p>
                             </div>
-                            <div class="border-2 border-solid border-white/30 rounded-sm p-4">
+                            <div class="border-2 border-solid border-white/30 hover:border-white/50 rounded-sm p-4">
                                 <img src="<?php the_field('cta_blocks_icon'); ?>" alt="">
                             </div>
                         </div>
@@ -41,7 +41,7 @@ get_header();
                                 <h2 class="CTATitle mb-2"><?php echo esc_html(get_field('cta_title_2')); ?></h2>
                                 <p class="CTABody"><?php echo esc_html(get_field('cta_body_2')); ?></p>
                             </div>
-                            <a href="" class="border-2 border-solid border-white/30 rounded-sm p-4">
+                            <a href="" class="border-2 border-solid border-white/30 hover:border-white/50 rounded-sm p-4">
                                 <img src="<?php the_field('cta_blocks_icon'); ?>" alt="">
                             </a>
                         </div>
