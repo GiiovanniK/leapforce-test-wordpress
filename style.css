@@ -105,6 +105,10 @@ html {
   background-size: cover;
 }
 
+.CTAContent {
+  padding: 0 24px 32px 24px;
+}
+
 .CTATitle {
   font-family: TT_Commons_Pro;
   font-weight: 600;
